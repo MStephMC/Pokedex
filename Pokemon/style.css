@@ -1,0 +1,57 @@
+head, body{
+width: 100vw;
+height: 100vh;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #920C2F;
+}
+.label{
+    color:#920C2F;
+}
+/*para ver los margenes de las cajas*/
+*{outline: 1px solid #def;}
+
+
+
+.selecPokemon button{
+    margin: .2rem;
+    height: 2rem;
+    border-radius: .3rem;
+    color: #333 !important;
+    border: 1px solid #979797;
+    background-color: white;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #dcdcdc));
+    background: -webkit-linear-gradient(top, #fff 0%, #dcdcdc 100%);
+    background: -moz-linear-gradient(top, #fff 0%, #dcdcdc 100%);
+    background: -ms-linear-gradient(top, #fff 0%, #dcdcdc 100%);
+    background: -o-linear-gradient(top, #fff 0%, #dcdcdc 100%);
+    background: linear-gradient(to bottom, #fff 0%, #dcdcdc 100%);
+}
+
+.selecPokemon{
+    width: 100%;
+    height: 3rem;
+    /* background-color: #FEE2D3; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cabecera .imagen {
+    width: 100%;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #920C2F;
+}
+.imagen img{
+    width: 30%;
+    max-height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#listaPokemons {
+    width: 100%;
+    margin: 2rem 1rem 1rem;
+}
